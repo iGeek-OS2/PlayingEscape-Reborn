@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your App</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Ensure full height of the viewport */
+            text-align: center;
+        }
+
+        #logo {
+            width: 80px; /* Adjust the size as needed */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        #app-name {
+            font-weight: bold;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+.btn {
+            background-color: red; /* Blue color, you can adjust it */
+            color: white;
+            padding: 10px 20px; /* Adjusted size */
+            font-size: 14px; /* Adjusted font size */
+            border: none;
+            cursor: pointer;
+            border-radius: 25px; /* Rounded corners */
+            margin-top: 10px;
+        }
+
+   #top-bar {
+            background-color: black; /* Dark background color, you can adjust it */
+            color: white;
+            padding: 10px;
+            width: 100%;
+            position: fixed; /* Fixed position at the top */
+            top: 0; /* Stick to the top of the viewport */
+            z-index: 1000; /* Ensure it's above other content */
+        }
+
+
+        #version-selector {
+            margin-top: 10px;
+        }
+
+        #version {
+            background-color: black; /* Black background for the select element */
+            color: white; /* White text color */
+            font-weight: bold; /* Bold font */
+            padding: 5px; /* Adjusted padding */
+            border-radius: 25px; /* Slightly rounded corners */
+        }
+
+    p{
+      font-size:18px;
+      color:black;
+      font-weight:400;
+    }
+    h1{
+      font-size:30px;
+      font-weight:600;
+    }
+   
+      h2{
+     font-weight:600;
+     font-size:25px;
+     color:black;
+
+    }
+        b{
+　font-size:20px;
+    }
+    </style>
+</head>
+<body>
+
+ <div id="top-bar">
+        <span id="app-name">旧脱獄ごっこ復活プロジェクト</span>
+        <!-- Add additional content or links in the top bar as needed -->
+    </div>
+
+<br>
+    <div id="logo-container">
+         <img id="logo" src="data:image/png;base64,=" alt="App Icon">
+        <span id="app-name"><h1>旧脱獄ごっこ</h1></span>
+    </div>
+  <a href="itms-services://?action=download-manifest&url=https://ipa.ipasign.cc:2052/sign/20240131193611406/dc011435-e213-3b58-e9c7-b4f039d3ec25/app.plist" class="btn">インストール</a>
+    <section>
+        <!-- Your main content goes here -->
+    </section>
+<br>
+<br>
+<b>インストールされる脱獄ごっこのバージョンは2.0.0です</b>
+
+</body>
+</html>
